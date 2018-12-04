@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "twotailstatistics@gmail.com")
 Description: The instamap package contains capabilities to generate 
-US national (lower 48 states) and individual state choropleths 
+US national and individual state choropleths 
 from the ggplot2 and maps libraries in one-line statements. Variables
 are visualized as a color gradient by state/county on generated 
 choropleths. 
