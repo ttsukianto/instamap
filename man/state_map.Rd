@@ -23,7 +23,3 @@ This function generates a map of a US state
 from the ggplot2 and maps packages while displaying
 county outlines and the variable of your choice as a color gradient.
 }
-\examples{
-state_map("crimes.csv", "New York", "County", "Homicide Rate")
-state_map("weather.csv", "washington", "county", "Precipitation Rate")
-}

@@ -8,9 +8,6 @@
 #' @param state_label The column label where the US states are in your csv file.
 #' @param var_label The column label where your variable of choice is in your csv file.
 #' @return A US map as a ggplot plot object.
-#' @examples
-#' us_map("crimes.csv", "State", "Homicide Rate")
-#' us_map("weather.csv", "state", "snowfall")
 us_map <- function(df_path, state_label, var_label) {
   states <- map_data("state")
   df <- read.csv(df_path)
@@ -35,9 +32,6 @@ us_map <- function(df_path, state_label, var_label) {
 #' @param county_label The column label where the state counties are in your csv file.
 #' @param var_label The column label where your variable of choice is in your csv file.
 #' @return A US state map with counties as a ggplot plot object.
-#' @examples
-#' state_map("crimes.csv", "New York", "County", "Homicide Rate")
-#' state_map("weather.csv", "washington", "county", "Precipitation Rate")
 state_map <- function(df_path, state, county_label, var_label) {
   state <- tolower(state)
   states <- map_data("state")

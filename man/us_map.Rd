@@ -21,7 +21,3 @@ This function generates a map of the lower 48 US states
 from the ggplot2 and maps packages while displaying the
 variable of your choice as a color gradient.
 }
-\examples{
-us_map("crimes.csv", "State", "Homicide Rate")
-us_map("weather.csv", "state", "snowfall")
-}
